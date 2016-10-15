@@ -1,0 +1,116 @@
+@font-face {
+        font-family: Noto-Sans;
+        src: url(fonts/NotoSans-regular.ttf);
+}
+
+@font-face {
+        font-family: Noto-Sans Bold;
+        src: url(fonts/NotoSans-bold.ttf);
+    }
+
+@font-face {
+        font-family: Noto-Sans Italic;
+        src: url(fonts/NotoSans-italic.ttf);
+}
+
+@font-face {
+        font-family: Noto-Sans Bold Italic;
+        src: url(fonts/NotoSans-bolditalic.ttf);
+        }
+
+@font-face {
+        font-family: San Francisco;
+        src: url(fonts/SanFrancisco.otf);
+        }
+
+@font-face {
+        font-family: San Francisco Bold;
+        src: url(fonts/SanFrancisco-bold.otf);
+        }
+h1 {
+	text-align: left;
+	font-family: San Francisco Bold, Arial;
+	color: white;
+	font-size: 30;
+}
+p {
+	color: red;
+}
+
+#drake {
+	position: inline;
+}
+
+#drake img {
+
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 10px;
+}
+#submit {
+	color: black;
+	background-color: white;
+}
+
+#talk {
+
+	color: grey;
+	text-align: left;
+	font-family: San Francisco, Arial;
+	background-color: white;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 10px;
+	margin: 10px;
+	max-width: 1180px;
+}
+
+.fake {
+	position: fixed;
+	left:-100px;
+	top:-100px;
+	z-index:-30;
+	opacity: 0.8;	
+}
+#cake {
+	font-family: San Francisco, Arial;
+	border: 5px solid white;
+	padding: 20px;
+	width: 353px;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#suprise {
+
+	font-family: San Francisco, Arial;
+	border: 5px solid white;
+	padding: 20px;
+	width: 353px;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	position: fixed;
+    bottom: 0;
+    right: 0;
+    
+}
+
+#demo {
+	color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#submit {
+	background-color: grey;
+    border: none;
+    color: white;
+    padding: 10px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+}
