@@ -69,7 +69,7 @@ p {
 	left:-100px;
 	top:-100px;
 	z-index:-30;
-	opacity: 0.8;	
+	opacity: 0.8;
 }
 #cake {
 	font-family: San Francisco, Arial;
@@ -93,14 +93,14 @@ p {
 	position: fixed;
     bottom: 0;
     right: 0;
-    
+
 }
 
 #demo {
 	color: black;
 }
 
-a:link {
+a link {
     text-decoration: none;
 }
 
